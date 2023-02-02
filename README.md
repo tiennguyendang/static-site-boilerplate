@@ -1,9 +1,17 @@
-Formatting in VSCode
+# Static site template
 
-1. HTML/JS:
-   - Press `Ctrl + Shift + P`
-   - Select `Format Code`
-2. CSS
-   - Install recommend extension [CSS Formatter](https://marketplace.visualstudio.com/items?itemName=aeschli.vscode-css-formatter)
-   - Reload VSCode (**important**)
-   - Press `Alt + Shift + F`
+## How to format code (HTML, CSS, JS) in VSCode
+
+1. Install recommend extensions
+
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
+2. Format code by using Command Palette (CMD/CTRL + Shift + P)
+
+```txt
+1. CMD + Shift + P -> Format Document
+OR
+1. Select the text you want to Prettify
+2. CMD + Shift + P -> Format Selection
+
+```
